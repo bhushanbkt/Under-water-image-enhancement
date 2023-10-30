@@ -19,17 +19,19 @@ Under water image enhancement using deep learning
 5. UOT32 (Underwater Object Tracking) Dataset - https://www.kaggle.com/datasets/landrykezebou/uot32-underwater-object-tracking-dataset/download?datasetVersionNumber=1 (Source - Kaggle)
 
 
-* Complete EDA for Under water image  - https://www.kaggle.com/code/soumya9977/learning-to-sea-underwater-img-enhancement-eda 
-* Under water image enhancement using YOLOv5 (Source - Kaggle)- https://www.kaggle.com/code/awsaf49/great-barrier-reef-yolov5-train
 
 
-* Steps & task involves -                                                                                                                      1. Data Collection:
-Gather a diverse dataset of underwater images with varying visibility and quality. Include both degraded and high-quality images for training and evaluation.
-2. Preprocessing: Preprocess the dataset by cleaning and annotating images, removing artifacts, and aligning them for consistency.
-3. Model Selection:Choose a deep learning architecture suitable for image enhancement. Convolutional Neural Networks (CNNs) and variants such as U-Net or generative adversarial networks (GANs) are often used for this purpose.
-4. Data Augmentation:Augment the dataset with transformations like rotation, flipping, and brightness adjustments to increase model robustness.
-5. Model Training:Train the selected deep learning model on the annotated dataset. The model should learn to map degraded underwater images to their enhanced counterparts.
-6. Loss Function:Define an appropriate loss function that measures the difference between the predicted enhanced image and the ground truth. Common choices include Mean Squared Error (MSE) or perceptual loss functions.
-7. Hyperparameter Tuning:Experiment with different hyperparameters, such as learning rates and batch sizes, to optimize model performance.
-8. Evaluation:Assess the model's performance on a separate validation dataset using evaluation metrics like Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index (SSIM), or perceptual quality metrics.
-9. Testing:Test the model on unseen underwater images to evaluate its generalization capability.
+
+* Steps & task involves -                                                                                                                      * Data Collection: Gather a diverse dataset of underwater images with varying visibility and quality
+
+Data Organization
+
+EDA
+
+Splitting data into Train-Test Split validation
+
+Model building
+
+Model Training & Testing
+
+
