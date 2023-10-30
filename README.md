@@ -22,7 +22,11 @@ Under water image enhancement using deep learning
 
 
 
-* Steps & task involves -                                                                                                                      * Data Collection: Gather a diverse dataset of underwater images with varying visibility and quality
+* Steps & task involves -                                                                                                                      *
+
+ 
+ 
+Data Collection: Gather a diverse dataset of underwater images with varying visibility and quality
 
 Data Organization
 
